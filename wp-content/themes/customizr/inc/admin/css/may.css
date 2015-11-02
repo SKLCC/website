@@ -1,0 +1,24 @@
+/*
+@author: may;
+@date: 2015-10-27;
+@description: all the css code I wrote will be displayed in this file;
+*/
+
+.sklcc-title {
+	font-size: 50px;
+    line-height: 300px;
+    text-align: center;
+
+    transition-property: font-size;
+	transition-duration: 0.5s;
+	-moz-transition-property: font-size; /* Firefox 4 */
+	-moz-transition-duration: 0.5s; /* Firefox 4 */
+	-webkit-transition-property: font-size; /* Safari and Chrome */
+	-webkit-transition-duration: 0.5s; /* Safari and Chrome */
+	-o-transition-property: font-size; /* Opera */
+	-o-transition-duration: 0.5s; /* Opera */
+}
+
+.sklcc-title:hover {
+	font-size: 75px;
+}
